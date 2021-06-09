@@ -1,11 +1,53 @@
 h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 40px;
-    background: lightgreen;
+    margin: 0;
+    padding: 20px 0;
+    background: rgb(159, 202, 159);
+    text-shadow: 3px 3px 1px black;
+    color: #dd812a;
     text-align: center;
+    font-size: 30px;
 }
-
-p{
-    margin-left: 40px;
+ul{
+    list-style-type: "\1F44D";
+    line-height: 80%;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF6500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    /* font-size: 16px;
     text-align: justify;
+    line-height: 2;
+    letter-spacing: 1px;*/
+    
 }
+p, li {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 1px;
+    
+}
+/*.criaborda{
+    border: 4px solid #666; 
+    padding: .5em;
+}
+.formataborda1{
+    border-color: orange;
+    font-weight: bold;
+}
+.formataborda2{
+    border-color: red;
+    font-weight: bold;
+}*/
+html {
+    font-size: 10px; 
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: rgb(161, 149, 149);
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
