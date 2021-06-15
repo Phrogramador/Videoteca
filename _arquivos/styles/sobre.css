@@ -1,5 +1,6 @@
 *{
-    height: 100%;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
 }
 
 
@@ -15,13 +16,29 @@ h1{
 ul{
     line-height: 80%;
 }
+header{
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+header > h1{
+    background-image: url(../imagens/sobre.jpg);
+    background-size:cover;
+    color: rgba(40, 231, 23, 0.842);
+    text-shadow: 1px 1px 1px  rgb(148, 90, 51);
+    background-position-x: inherit ;
+    
+}
+#falarcomigo{
+    text-align: center;
+}
 body{
     width: 600px;
     margin: 0 auto;
     background-image: linear-gradient(to right, #A8472D, #543932, #B4f567,#525970, #85A165 );
     background-attachment: fixed;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
     /* font-size: 16px;
     text-align: justify;
     line-height: 2;
