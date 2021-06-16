@@ -24,9 +24,9 @@ header > h1{
     background-image: url(../imagens/sobre.jpg);
     background-size:cover;
     color: rgba(40, 231, 23, 0.842);
-    text-shadow: 1px 1px 1px  rgb(148, 90, 51);
-    background-position-x: inherit ;
-    
+    text-shadow: 1px 1px 1px  rgb(148, 90, 51);    
+    background-attachment: fixed;
+    background-size: cover;    
 }
 #falarcomigo{
     text-align: center;
